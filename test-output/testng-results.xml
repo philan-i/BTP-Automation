@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-28T17:34:42Z" name="Suite" finished-at="2023-06-28T17:35:35Z" duration-ms="53790">
+    <groups>
+    </groups>
+    <test started-at="2023-06-28T17:34:42Z" name="Test" finished-at="2023-06-28T17:35:35Z" duration-ms="53790">
+      <class name="za.co.absa.testcase.PerformCSID">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:za.co.absa.testcase.PerformCSID@13bec1d2]" started-at="2023-06-28T17:34:42Z" name="setUp" finished-at="2023-06-28T17:34:42Z" duration-ms="547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="performCSID(java.lang.String, java.lang.String)[pri:0, instance:za.co.absa.testcase.PerformCSID@13bec1d2]" started-at="2023-06-28T17:34:42Z" name="performCSID" data-provider="scoringNumberTestData" finished-at="2023-06-28T17:35:35Z" duration-ms="53182" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[42001880281]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8092689537]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performCSID -->
+      </class> <!-- za.co.absa.testcase.PerformCSID -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
